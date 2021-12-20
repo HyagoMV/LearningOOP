@@ -9,14 +9,14 @@
     - Alterar O QUE o objeto faz (API), afetará outros objetos
 
 # Encapsulamento
-- O encapsulamento permite agrupar dados e código em um único local
+- O encapsulamento permite agrupar ESTADO e COMPORTAMENTO em um único local
 - O encapsulamento permite restringir acesso direto a membros do objeto
 - O encapsulamento permite esconder os detalhes da implementação do objeto
     - Alterar COMO o objeto FAZ (implementação), não afetá outros objetos
 
 # Herança
-- A herança possibilita que classes herdeiras reutilizem ou ocultem dados herdados de outra classe
-- A herança possibilita que classes herdeiras reutilizem, extendam ou substituam código herdados de outra classe
+- A herança possibilita que classes herdeiras reutilizem ou ocultem ESTADO herdados de outra classe
+- A herança possibilita que classes herdeiras reutilizem, extendam ou substituam COMPORTAMENTO herdados de outra classe
 
 # Polimorfismo
 - O polimorfismo possibilita definir uma única forma de acesso e ter diversas implementações diferentes
