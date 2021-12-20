@@ -1,19 +1,18 @@
 # Abstração
-- Abstração é o processo de generalização
-    - Visa identificação características e comportametos importante de um objeto
-- A abstração permite expor funcionalidades do objeto para outros objetos sem expor sua implementação
-- Alterar uma funcionalidade exposta de um objeto afetará outros objetos que a usam
-- Ex:
-    - Alterar o nome da propriedade não exposta
-    - Alterar o nome de um método não exposta
-    - Alterar o algoritmo do método  exposta ou não exposta
+- Abstração é o processo que isolar as caracteristacas e comportametos relevantes de um objeto em um dado contexto
+- Com a abstração é possível alcaçar as responstas das seguintes pergunstas:
+    - O QUE o objeto deve SABER, nesse dado contexto?
+    - O QUE o objeto deve FAZER, nesse dado contexto?
+        - A abstração não tem comoo objetivo dizer COMO fazer
+- A abstração permite expor O QUE o objeto faz sem expor COMO FAZ 
+    - Não expoe a implementação
+    - Alterar O QUE o objeto faz (API), afetará outros objetos
 
 # Encapsulamento
-- O encapsulamento 
-    - Permite agrupar dados e código em um único objeto
-    - Permite estringir acesso a membros não do objeto
-    - Permite esconder os detalhes da implementação do objeto
-        - Alterar uma implementação escondida não afetar ouros objetos
+- O encapsulamento permite agrupar dados e código em um único local
+- O encapsulamento permite restringir acesso direto a membros do objeto
+- O encapsulamento permite esconder os detalhes da implementação do objeto
+    - Alterar COMO o objeto FAZ (implementação), não afetá outros objetos
 
 # Herança
 - A herança possibilita que classes herdeiras reutilizem ou ocultem dados herdados de outra classe
